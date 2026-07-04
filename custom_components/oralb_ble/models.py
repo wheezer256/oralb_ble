@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from oralb import OralB
+from .oralb_lib import OralB
 
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator
 

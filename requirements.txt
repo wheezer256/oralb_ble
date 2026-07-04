@@ -1,1 +1,2 @@
-oralb==0.2
+# Deps (bleak, bleak-retry-connector) are provided by Home Assistant core.
+# The oralb parser is vendored at custom_components/oralb_ble/oralb_lib.py.

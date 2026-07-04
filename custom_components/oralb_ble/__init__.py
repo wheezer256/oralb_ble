@@ -6,7 +6,7 @@ from datetime import timedelta
 import logging
 
 import async_timeout
-from oralb import OralB
+from .oralb_lib import OralB
 
 from homeassistant.components import bluetooth
 from homeassistant.components.bluetooth.match import ADDRESS, BluetoothCallbackMatcher
